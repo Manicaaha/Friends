@@ -1,0 +1,50 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.baner{
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+.glowny{
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+    overflow-y: auto;
+}
+.container {
+    display: flex;
+}
+.zdjecie {
+    flex: 1;
+    padding: 10px;
+    width: 20%;
+}
+.opis {
+    flex: 2;
+    padding: 10px;
+}
+.linia{
+    flex: 0;
+}
+.stopka{
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+img{
+    padding: 20px;
+    border-radius: 100%;
+}
+h2{
+    text-align: center;
+    background-color: #00897B;
+}
+a{
+    color: white;
+}
